@@ -1,0 +1,143 @@
+/*CSS cho tablet*/
+/*tương đương zoom 150% ở màn hình laptop */
+:root {
+  --margin-tablet: 48px;
+  --image-height-cert: 300px;
+}
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  /*chỉnh kích cỡ của ảnh background*/
+  #banner {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /*ẩn phần tên ở giữa navbar*/
+  .center-navbar {
+    display: none !important;
+    padding: 0;
+  }
+  /*chỉnh lại margin chứng chỉ*/
+  #certificate {
+    margin-left: var(--margin-tablet);
+    margin-right: var(--margin-tablet);
+  }
+
+  /*chỉnh lại sắp xếp cho một chứng chỉ*/
+  .certificate_container_flex {
+    flex-direction: column;
+  }
+
+  .img-container {
+    height: 256px;
+  }
+  /*kích cỡ hình ảnh*/
+  .cert-img {
+    width: var(--image-height-cert);
+    margin-bottom: 16px;
+  }
+
+  /*thanh level ngôn ngữ, kỹ năng*/
+  .grade_level {
+    display: inline-block;
+    width: 48px;
+    
+}
+  /*chỉnh lại margin cho nội dung trong thông tin cá nhân*/
+  .info,
+  .info2 {
+    margin-top: 24px;
+  }
+
+  /*ẩn các chữ facebook, twitter*/
+  .icon-footer {
+    display: none;
+  }
+  /*tăng kích thước các icon*/
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 64px;
+  }
+/*dàn hàng lại các icon trong sở thích*/
+.icon-taste-container-flex {
+  /*sử dụng flex để dàn đều 3 items.
+  thêm trực tiếp flex-grow ở style trong index
+  để tự động điều chỉnh khi thu phóng*/
+  display: inline-flex;
+  flex-direction: row;
+  /*dàn đều 2 bên trang */
+  gap: 2px;
+}
+  /*thử đổi sang flex cho mỗi cột của phần thông tin nghề nghiệp*/
+  #job-info {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    margin-left: var(--margin-tablet);
+    margin-right: var(--margin-tablet);
+    align-items: start;
+  }
+
+
+  .job-info-content {
+    grid-column: auto;
+  }
+  .nav_avatar {
+    display: none;
+  }
+  /*sắp xếp lại để hiển thị các dự án gọn vào khung hình*/
+  .project-container {
+    margin-left: var(--margin-tablet);
+    margin-right: var(--margin-tablet);
+    max-width: 768px;
+  }
+
+  .project_layout {
+    grid-template-rows: 128px 1fr;
+  }
+  /*chỉnh lại kích cỡ cho hình ảnh ở dự án
+để khung hình phù hợp*/
+  .project-img {
+    width: 200px;
+    height: auto;
+  }
+  /*giảm font để ,
+  thay đổi padding và margin để hiển thị hiển thị thẳng hàng các nội dung*/
+  .section-title {
+    font-size: 30px;
+    padding-bottom: 0px;
+    height: 128px;
+  }
+/*sắp xếp lại các mục trong thông tin nghề nghiệp
+chuyển đổi một số vị trí do kích thước không giống
+biểu mẫu */
+  .el-c1h1 {
+    grid-column: 1;
+    grid-row: 1/6;
+}
+  .el-c1h2 {
+    grid-column: 2;
+    grid-row: 5;
+}
+  .el-c1h3 {
+    grid-column: 2;
+    grid-row:4;
+}
+  .el-c2h1 {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+  .el-c2h2 {
+   grid-column: 2;
+   grid-row: 2;
+   
+}
+  .el-c2h3 {
+   grid-column: 2;
+   grid-row: 3;
+}
+
+/*chỉnh sửa để khung fitcontent*/
+.el-fitcontent{
+
+}
