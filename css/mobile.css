@@ -6,6 +6,12 @@
 }
 @media (max-width: 414px) {
   /*chuyển lại phần thông tin thành cột*/
+  /*ản phần thừa ở phía bên phải màn hình*/
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
   #about {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
