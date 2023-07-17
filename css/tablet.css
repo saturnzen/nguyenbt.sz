@@ -6,6 +6,13 @@
 }
 @media only screen and (min-width: 414px) and (max-width: 768px) {
   /*chỉnh kích cỡ của ảnh background*/
+
+   /*ản phần thừa ở phía bên phải màn hình*/
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
   #banner {
     background-position: center;
     background-size: cover;
@@ -140,4 +147,4 @@ biểu mẫu */
 /*chỉnh sửa để khung fitcontent*/
 .el-fitcontent{
 
-}
+}}
