@@ -4,7 +4,7 @@
   --margin-tablet: 48px;
   --image-height-cert: 300px;
 }
-@media only screen and (min-width: 414px) and (max-width: 768px) {
+@media only screen and (min-width: 477px) and (max-width: 768px) {
   /*chỉnh kích cỡ của ảnh background*/
 
    /*ản phần thừa ở phía bên phải màn hình*/
