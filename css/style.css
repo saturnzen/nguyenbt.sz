@@ -9,8 +9,14 @@ text: #adb5bd
 */
 
 /*dùng cho laptop, tối ưu ở 80%*/
+:root {
+  --margin-laptop: 64px;
+  --image-height-cert: 300px;
+}
+
 * {
   margin: 0px;
+  box-sizing: border-box;
 }
 html {
   font-family: "RUbik", sans-serif;
@@ -19,9 +25,14 @@ html {
 .bg-grey {
   background: #f7f7f7;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 section > .container {
-  width: 1170px;
+  /*mức 1500 px để màn hình hiển thị 100% không có scroll ngang*/
+  width: 1200px;
   margin: auto;
   /*display: block;*/
 
@@ -93,8 +104,12 @@ a {
 
 /*Chứng chỉ giải thưởng*/
 #certificate {
-  margin-left: 168px;
-  margin-right: 168px;
+  margin-left: var(--margin-laptop);
+  margin-right: var(--margin-laptop);
+}
+
+#certificate h1 {
+  margin-left: 0px;
 }
 .certificate_grid {
   display: grid;
@@ -240,8 +255,9 @@ li:first-child {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr auto;
-  margin: 0px 168px;
+  margin: 0px var(--margin-laptop);
   column-gap: 12px;
+  box-sizing: border-box;
 }
 
 .job-info-layout {
@@ -252,6 +268,7 @@ li:first-child {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
   border: #444;
   margin: 8px;
+  box-sizing: border-box;
 }
 
 .job-info-content {
@@ -380,15 +397,17 @@ li.job-title::marker {
 .project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0px 168px;
+  /*grid-template-rows: repeat(2, 1fr);*/
+  margin: 0px var(--margin-laptop);
   column-gap: 12px;
-  margin-right: 168px;
+  margin-right: var(--margin-laptop);
 }
 /*phần chứa cho một dự án */
 .project_layout {
   grid-template-rows: 256px 1fr;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
   border: solid #e9ecef;
+  margin-bottom: 24px;
 }
 .project-img {
   background-image: url(../images/project_1.png);
@@ -397,6 +416,12 @@ li.job-title::marker {
 để khung hình phù hợp*/
   width: 60vh;
   height: auto;
+  overflow: auto;
+}
+
+/*project h1*/
+#project h1 {
+  margin-left: var(--margin-laptop);
 }
 
 #personal-info {
