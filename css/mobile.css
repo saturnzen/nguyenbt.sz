@@ -1,17 +1,15 @@
 /*CSS cho mobile*/
 /*tương đương zoom 300% ở màn hình laptop */
 :root {
-  --margin-mobile: 24px;
+  --margin-mobile: 12px;
   --image-height: 300px;
 }
-@media (max-width: 477px) {
+@media (max-width: 414px) {
   /*chuyển lại phần thông tin thành cột*/
-  /*ản phần thừa ở phía bên phải màn hình*/
   html,
   body {
     overflow-x: hidden;
   }
-  
   #about {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
@@ -37,11 +35,18 @@
   #certificate {
     margin: 0;
   }
+
+  #certificate h1,
+  #project h1 {
+    margin-left: var(--margin-mobile);
+  }
+
   .certificate_grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2fr);
     margin: 0px;
     margin-left: var(--margin-mobile);
+    margin-right: var(--margin-mobile);
     padding-bottom: 0px;
     /*bỏ gạch phân biệt vùng ở chứng chỉ giải thưởng*/
     border: none;
@@ -94,6 +99,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6 1fr);
     margin-left: var(--margin-mobile);
+    /*6aug23 thay đổi margin giao diện mobile*/
+    margin-right: var(--margin-mobile);
   }
 
   .nav_avatar {
@@ -116,6 +123,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     margin-left: var(--margin-mobile);
+    margin-right: var(--margin-mobile);
   }
 
   .project_layout {
