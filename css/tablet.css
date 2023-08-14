@@ -103,10 +103,10 @@
   }
   /*chỉnh lại kích cỡ cho hình ảnh ở dự án
 để khung hình phù hợp*/
-  .project-img {
+/*   .project-img {
     width: 200px;
     height: auto;
-  }
+  } */
   /*giảm font để ,
   thay đổi padding và margin để hiển thị hiển thị thẳng hàng các nội dung*/
   .section-title {
