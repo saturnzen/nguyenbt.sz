@@ -131,8 +131,8 @@
   }
   /*chỉnh lại kích cỡ cho hình ảnh ở dự án
 để khung hình phù hợp*/
-  .project-img {
+/*   .project-img {
     width: var(--image-height);
     height: auto;
-  }
+  } */
 }
