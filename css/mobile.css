@@ -26,11 +26,15 @@
     padding: 0;
   }
   /*ẩn phần tên ở giữa navbar*/
-  .center-navbar,
+  /* .center-navbar, */
   .tail-nav {
     display: none !important;
     padding: 0px !important;
   }
+
+   h1.center-navbar{
+    height: 0;
+   } 
 
   #certificate {
     margin: 0;
@@ -131,7 +135,7 @@
   }
   /*chỉnh lại kích cỡ cho hình ảnh ở dự án
 để khung hình phù hợp*/
-/*   .project-img {
+  /* .project-img {
     width: var(--image-height);
     height: auto;
   } */

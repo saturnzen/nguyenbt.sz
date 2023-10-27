@@ -42,6 +42,9 @@ section > .container {
 a {
   text-decoration: none;
 }
+a:hover {
+  /* width: 120%; */
+}
 
 /*Tạo cột cho Mục tiêu nghề nghiệp và thông tin cá nhân*/
 #about {
@@ -414,7 +417,6 @@ li.job-title::marker {
   background-size: cover;
   /*chỉnh lại kích cỡ cho hình ảnh ở dự án
 để khung hình phù hợp*/
-  width: 60vh;
   height: auto;
   overflow: auto;
 }
