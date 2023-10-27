@@ -27,13 +27,13 @@
       </div>
     </div>
     
-    <section id="nav-bar">
+    <section id="nav-bar" class="operations__tab-container">
 
        <a class="tail-nav" style=" flex-grow: 5;" ></a>
-        <a href="#about"><i class="icon-user"></i>Thông tin</a>
-        <a href="#personal-info"><i class="icon-doc-text-inv"></i>Lý lịch</a>
+        <a href="#target" class="operations__tab"><i class="icon-user"></i>Thông tin</a>
+        <a href="#personal-info" class="operations__tab"><i class="icon-doc-text-inv"></i>Lý lịch</a>
           
-        <a href="images/avatar.jpg" class="center-navbar" ><div style="display: block;">
+        <a href="#job-info" class="center-navbar operations__tab" ><div style="display: block;">
             <h1 class="center-navbar" style="font-size: 24px; color: white;">Bùi Trung Nguyên</h1>
             <h2  class="center-navbar" style="font-size: 10px; color: rgba(92, 97, 97, 0.301);"
               >Full Stack Developer</h2>
@@ -41,15 +41,15 @@
         
             <img src="images\avatar.jpg" class="nav_avatar d-none d-sm-block">
       
-        <a href="#certificate"><i class="icon-mail-alt"></i>Chứng chỉ</a>
-        <a href="#project"><i class="icon-star-1"></i>Dự Án</a>
+        <a href="#certificate" class="operations__tab"><i class="icon-mail-alt "></i>Chứng chỉ</a>
+        <a href="#project" class="operations__tab" ><i class="icon-star-1"></i>Dự Án</a>
         <a class="tail-nav" style=" flex-grow: 5;"></a>
 
     </section>
 
-    <section id="about" class="bg-grey">
+    <section id="about" class="bg-grey ">
       
-      <div id="target">
+      <div id="target" class="operations__content">
         <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
         <p class="mt-40 info"  style="margin-left: 32px; margin-right: 32px"><!-- <span class="info2">
           Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp của
@@ -66,8 +66,8 @@
         </p>
       </div>
 
-      <div id="personal-info">
-        <h1 class="section-title">Thông tin cá nhân</h1>
+      <div id="personal-info" class="operations__content">
+        <h1 class="section-title operations__content">Thông tin cá nhân</h1>
         <ul class="mt-40 info">
           <li><span>Giới tính</span><span class="info2"> : Nam</span></li>
           <li><span>Ngày sinh</span><span class="info2"> : 28/11/1994</span></li>
@@ -91,7 +91,7 @@
       </div>
     </section>
 
-    <section id="job-info">
+    <section id="job-info" class="operations__content d-none">
       <div class="job-info-layout el-c1h1">
         <div class="job-info-title"><h1>Kinh nghiệm</h1></div>
         <div class="icon_1"><span>
@@ -262,7 +262,7 @@
 
 
     <!--bắt đầu phần chứng chỉ giải thưởng-->
-    <section id="certificate" class="bg-grey">
+    <section id="certificate" class="bg-grey d-none operations__content">
       <h1 class="section-title">
         Chứng chỉ - Giải thưởng
       </h1>
@@ -464,8 +464,8 @@
 <!--kết thúc phần chứng chỉ giải thưởng-->
 
 <!--bắt đầu phần dự án-->
-    <section id="project">
-      <h1 class="section-title" >Dự án</h1>
+    <section id="project" class="operations__content d-none ">
+      <h1 class="section-title " >Dự án</h1>
 <!--phần chứa cho toàn bộ dự án-->
       <div class="project-container">
 <!--mỗi khung dự án bắt đầu từ đây-->
@@ -625,5 +625,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
