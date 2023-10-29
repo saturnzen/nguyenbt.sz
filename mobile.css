@@ -1,0 +1,145 @@
+/*CSS cho mobile*/
+/*tương đương zoom 300% ở màn hình laptop */
+:root {
+  --margin-mobile: 12px;
+  --image-height: 300px;
+}
+
+/* 2023-10--29: 414px */
+@media (max-width: 438.40px) {
+  /*chuyển lại phần thông tin thành cột*/
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  #about {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    background-color: #f3eeed;
+  }
+  /*chỉnh kích cỡ của ảnh background*/
+  #banner {
+    background-position: center;
+    background-size: cover;
+  }
+  /*bỏ gạch phân biệt vùng ở chứng chỉ giải thưởng*/
+  .border_for_cert {
+    border: none;
+    padding: 0;
+  }
+  /*ẩn phần tên ở giữa navbar*/
+  /* .center-navbar, */
+  .tail-nav {
+    display: none !important;
+    padding: 0px !important;
+  }
+
+   h1.center-navbar{
+    height: 0;
+   } 
+
+  #certificate {
+    margin: 0;
+  }
+
+  #certificate h1,
+  #project h1 {
+    margin-left: var(--margin-mobile);
+  }
+
+  .certificate_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2fr);
+    margin: 0px;
+    margin-left: var(--margin-mobile);
+    margin-right: var(--margin-mobile);
+    padding-bottom: 0px;
+    /*bỏ gạch phân biệt vùng ở chứng chỉ giải thưởng*/
+    border: none;
+  }
+
+  .certificate_container_flex {
+    flex-direction: column;
+    margin-left: var(--margin-mobile-mobile);
+    margin-bottom: 12px;
+    margin-top: 24px;
+    /*thêm gạch ngang phân biệt các chứng chỉ*/
+    border-bottom: solid #d6c08d;
+  }
+
+  .certificate_container_flex img {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: baseline;
+  }
+
+  /*kích cỡ hình ảnh */
+  .cert-img {
+    width: var(--image-height);
+    margin-bottom: 16px;
+  }
+
+  /*chỉnh sửa lại phần footer*/
+  .container {
+    width: 414px !important;
+  }
+
+  /*sửa lại kích cỡ chữ trong banner*/
+  .header-container h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  /*ẩn các chữ facebook, twitter*/
+  .icon-footer {
+    display: none;
+  }
+  /*tăng kích thước các icon*/
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 64px;
+  }
+  /*chuyển lại phần thông tin thành cột*/
+  #job-info {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6 1fr);
+    margin-left: var(--margin-mobile);
+    /*6aug23 thay đổi margin giao diện mobile*/
+    margin-right: var(--margin-mobile);
+  }
+
+  .nav_avatar {
+    display: none;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    gap: 0px;
+  }
+
+  
+
+  .project-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: var(--margin-mobile);
+    margin-right: var(--margin-mobile);
+  }
+
+  .project_layout {
+    margin-top: 24px;
+  }
+  /*chỉnh lại kích cỡ cho hình ảnh ở dự án
+để khung hình phù hợp*/
+  /* .project-img {
+    width: var(--image-height);
+    height: auto;
+  } */
+
+  .slide {height: 50rem}
+
+  .slider{height: 60rem}
+}
