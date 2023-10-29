@@ -3991,6 +3991,16 @@
   content: "\eb08";
 }
 
+/* '' */
+.icon-x-twitter:before {
+  content: "\F8DB";
+}
+
+/* '' */
+.icon-x-twitter-circled:before {
+  content: "\F8DB";
+}
+
 /* '' */
 .icon-facebook-1:before {
   content: "\eb09";
@@ -5706,6 +5716,16 @@
   content: "\ec5f";
 }
 
+/* '' */
+.icon-x-twitter-circled-1:before {
+  content: "\F8DB";
+}
+
+/* '' */
+.icon-x-twitter-1:before {
+  content: "\F8DB";
+}
+
 /* '' */
 .icon-vimeo-circled-1:before {
   content: "\ec60";
@@ -6921,6 +6941,21 @@
   content: "\ed52";
 }
 
+/* '' */
+.icon-x-twitter-2:before {
+  content: "\F8DB";
+}
+
+/* '' */
+.icon-x-twitter-bird:before {
+  content: "\F8DB";
+}
+
+/* '' */
+.icon-x-twitter-rect:before {
+  content: "\F8DB";
+}
+
 /* '' */
 .icon-youtube:before {
   content: "\ed53";
@@ -7856,6 +7891,16 @@
   content: "\ee0d";
 }
 
+/* '' */
+.icon-x-twitter-3:before {
+  content: "\F8DB";
+}
+
+/* '' */
+.icon-x-twitter-circled-2:before {
+  content: "\F8DB";
+}
+
 /* '' */
 .icon-facebook-4:before {
   content: "\ee0e";
@@ -8479,6 +8524,11 @@
 /* '' */
 .icon-twitter-4:before {
   content: "\ee8a";
+}
+
+/* '' */
+.icon-x-twitter-4:before {
+  content: "\F8DB";
 }
 
 /* '' */
@@ -10081,6 +10131,11 @@
   content: "\efca";
 }
 
+/* '' */
+.icon-x-twitter-5:before {
+  content: "\F8DB";
+}
+
 /* '' */
 .icon-tumblr-3:before {
   content: "\efcb";
@@ -10736,6 +10791,11 @@
   content: "\f04d";
 }
 
+/* '' */
+.icon-x-twitter-bird-1:before {
+  content: "\F8DB";
+}
+
 /* '' */
 .icon-vimeo-rect:before {
   content: "\f04e";
@@ -10794,6 +10854,16 @@
 /* '' */
 .icon-twitter-bird-2:before {
   content: "\f059";
+}
+
+/* '' */
+.icon-x-twitter-6:before {
+  content: "\F8DB";
+}
+
+/* '' */
+.icon-x-twitter-bird-2:before {
+  content: "\F8DB";
 }
 
 /* '' */

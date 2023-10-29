@@ -11,10 +11,12 @@
       href="https://getbootstrap.com/docs/5.1/examples/carousel/"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/font.css" />
-    <link rel="stylesheet" href="./css/laptop.css" />
-    <link rel="stylesheet" href="./css/tablet.css" />
+    
     <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
     
     <title>Bùi Trung Nguyên's CV</title>
   </head>
@@ -34,7 +36,7 @@
         <a href="#personal-info" class="operations__tab"><i class="icon-doc-text-inv"></i>Lý lịch</a>
           
         <a href="#job-info" class="center-navbar operations__tab" ><div style="display: block;">
-            <h1 class="center-navbar" style="font-size: 24px; color: white;">Bùi Trung Nguyên</h1>
+            <h1 class="center-navbar" style="font-size: 13px; color: white;">Bùi Trung Nguyên</h1>
             <h2  class="center-navbar" style="font-size: 10px; color: rgba(92, 97, 97, 0.301);"
               >Full Stack Developer</h2>
             </div></a>
@@ -48,7 +50,8 @@
     </section>
 
     <section id="about" class="bg-grey ">
-      
+    <div class="slider">
+        <div class="slide">
       <div id="target" class="operations__content">
         <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
         <p class="mt-40 info"  style="margin-left: 32px; margin-right: 32px">
@@ -77,31 +80,39 @@
                 in <b class="text-warning h2">data analysis</b> to purchase current work. </span>
         </p>
         
-      </div>
-
+    </div>
+    </div>
+    <div class="slide">
       <div id="personal-info" class="operations__content">
-        <h1 class="section-title operations__content">Thông tin cá nhân</h1>
-        <ul class="mt-40 info">
-          <li><span>Giới tính</span><span class="info2"> : Nam</span></li>
-          <li><span>Ngày sinh</span><span class="info2"> : 28/11/1994</span></li>
-          <li><span>Điện thoại</span><span class="info2"> : (+84) 364-232-523</span></li>
-          <li><span>Email</span><span class="info2"> : Nguyenbtfx22015@funix.edu.vn</span></li>
-          <li>
-            <span>Địa chỉ</span><span class="info2"> : phường Tân Phong, quận 7,
+        
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <p>
+          <ul class="mt-40 info">
+            <li><span>Giới tính</span><span class="info2"> : Nam</span></li>
+            <li><span>Ngày sinh</span><span class="info2"> : 28/11/1994</span></li>
+            <li><span>Điện thoại</span><span class="info2"> : (+84) 364-232-523</span></li>
+            <li><span>Email</span><span class="info2"> : Nguyenbtfx22015@funix.edu.vn</span></li>
+            <li>
+              <span>Địa chỉ</span><span class="info2"> : phường Tân Phong, quận 7,
             thành phố Hồ Chí Minh</span>
-          </li>
-          <li><span>Website</span><span class="info2"><a href="https://saturnzen.github.io/nguyenbt.sz/"> : https://saturnzen.github.io/nguyenbt.sz/</a></span></li>
-          <li class="social_icon">
-            <a href="https://twitter.com/Saturnzen2811/"
+            </li>
+            <li><span>Website</span><span class="info2"><a href="https://saturnzen.github.io/nguyenbt.sz/"> : https://saturnzen.github.io/nguyenbt.sz/</a></span></li>
+            <li class="social_icon">
+              <a href="https://twitter.com/Saturnzen2811/"
               ><i class="icon-twitter"></i></a>
-            <a href="https://www.facebook.com/Saturnzen2811/"
+              <a href="https://www.facebook.com/Saturnzen2811/"
               ><i class="icon-facebook"></i
             ></a>
             <a href="#"><i class="icon-gplus"></i></a>
             <a href="https://www.linkedin.com/in/nguyên-bùi-27b0b9145/"><i class="icon-linkedin"></i></a>
-          </li>
-        </ul>
-      </div>
+            </li>
+          </ul></p>
+        </div>
+    </div>
+    <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+    </div>
     </section>
 
     <section id="job-info" class="operations__content d-none">
