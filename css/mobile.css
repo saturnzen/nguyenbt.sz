@@ -116,7 +116,7 @@
   #nav-bar {
     flex-direction: column;
     justify-content: center;
-    height: 180px;
+    height: 200px;
     gap: 0px;
   }
 
@@ -138,4 +138,8 @@
     width: var(--image-height);
     height: auto;
   } */
+
+  .slide {height: 50rem}
+
+  .slider{height: 60rem}
 }

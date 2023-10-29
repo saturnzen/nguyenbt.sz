@@ -454,8 +454,8 @@ thẳng hàng với các mục*/
 
 #target {
   grid-column: auto;
-  margin-left: 128px;
-  margin-right: 128px
+  margin-left: 5rem;
+  margin-right: 5rem
 }
 
 ul {
