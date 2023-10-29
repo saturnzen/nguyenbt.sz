@@ -396,7 +396,7 @@ li.job-title::marker {
   height: 144px;
   width: 144px;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 0%);
 }
 
 .operations__tab{

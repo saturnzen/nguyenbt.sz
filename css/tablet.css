@@ -2,9 +2,10 @@
 /*tương đương zoom 150% ở màn hình laptop */
 :root {
   --margin-tablet: 48px;
-  --image-height-cert: 300px;
+  /* --image-height-cert: 300px; */
+  --image-height-cert: 90%;
 }
-@media only screen  (max-width: 768px) {
+@media (min-width:435px) and (max-width: 880px) {
   /*chỉnh kích cỡ của ảnh background*/
 
   html,
@@ -20,8 +21,9 @@
 
   /*ẩn phần tên ở giữa navbar*/
   .center-navbar {
-    display: none !important;
     padding: 0;
+    box-sizing: border-box;
+    width: 5rem;
   }
   /*chỉnh lại margin chứng chỉ*/
   #certificate {
@@ -88,6 +90,7 @@
   }
   .nav_avatar {
     display: none;
+    transform: translate(-50%, -100%);
   }
   /*sắp xếp lại để hiển thị các dự án gọn vào khung hình*/
   .project-container {
@@ -111,6 +114,10 @@
     font-size: 30px;
     padding-bottom: 0px;
     height: 128px;
+  }
+
+  .tail-nav{
+    display: none !important;
   }
   /*sắp xếp lại các mục trong thông tin nghề nghiệp
 chuyển đổi một số vị trí do kích thước không giống
