@@ -164,7 +164,7 @@ const loadImg = function(entries, observer){
   const certEls = document.querySelectorAll(`.cert--${reachTo}`)
   certEls.forEach(cert => cert.classList.remove('d-none'))
   reachTo ++
-  if (reachTo === 7) reachTo = 2
+  if (reachTo === 14) reachTo = 2
   // console.log(reachTo);
   // observer.unobserve(entry.target)
 }
