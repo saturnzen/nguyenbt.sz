@@ -62,7 +62,7 @@ a:hover {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(../images/banner.jpg);
+    url(../images/banner.png);
   position: relative;
   text-align: center;
   height: 75vh;
@@ -393,8 +393,8 @@ li.job-title::marker {
   resize: 50%;
   z-index: 1;
   position: absolute;
-  height: 144px;
-  width: 144px;
+  height: 212px;
+  width: 212px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
