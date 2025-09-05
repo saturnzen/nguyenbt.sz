@@ -447,6 +447,7 @@ li.job-title::marker {
 /* bỏ padding của ul, căn chỉnh lại thông tin cá nhân 
 thẳng hàng với các mục*/
 .section-title {
+margin-top: 100px;
   margin-left: 32px;
   padding-bottom: 48px;
   padding-top: 64px;
@@ -588,3 +589,4 @@ td {
   background-color: #888;
   opacity: 1;
 }
+
