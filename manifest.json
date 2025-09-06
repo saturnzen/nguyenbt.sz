@@ -13,8 +13,9 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/",
+    "start_url": "/nguyenbt.sz/",
     "display": "standalone",
     "background_color": "#28074a",
     "theme_color": "#9AD4E0"
 }
+
