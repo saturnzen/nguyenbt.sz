@@ -116,8 +116,13 @@
   #nav-bar {
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 300px;
     gap: 0px;
+  }
+
+  #nav-bar a{
+    font-size: 24px;
+    margin: 5px;
   }
 
   
