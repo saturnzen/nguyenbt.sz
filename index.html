@@ -373,214 +373,28 @@
       <h1 class="section-title">
         Chứng chỉ - Giải thưởng
       </h1>
-<!-- một hàng trong gồm 2 chứng chỉ-->
-      <div class="certificate_grid">
+<!-- Template cho một chứng chỉ -->
+<div id="certificate-container"></div>
 
-        <div class="certificate_container_flex cert--1 d-none">
-          <img class="cert-img" src="images\Cert_WEB.png">
-          <DIV>
-          <ul >  
-            <li class="name_of_cert">Chứng chỉ lập trình Web - Funix</li>
-            <li class="job_content">Chứng chỉ thuộc chương trình CCDN</li>
-            <li class="job_content text-danger">GPA: 6.8</li>
-          </ul></DIV>
-        </div>
+<template id="certificate-template">
+  <div class="certificate_container_flex">
+    <a href="#" target="_blank"><img class="cert-img" src=""></a>
+    <span>
+      <ul>
+        <li class="name_of_cert"></li>
+        <li class="job_content"></li>
+        <li class="job_content text-info"></li>
+        <li class="job_content text-info"></li>
+        <li class="job_content text-success"></li>
+      </ul>
+    </span>
+  </div>
+</template>
 
-        <div class="certificate_container_flex cert--2 border_for_cert d-none">
-          <img class="cert-img" src="images\Cert_PRF.png" >
-          <span>
-          <ul >  
-            <li class="name_of_cert">Chứng chỉ lập trình JAVASCRIPT - Funix</li>
-            <li class="job_content">Chứng chỉ thuộc chương trình CCDN</li>
-            <li class="job_content text-success">GPA: 8.9</li>
-          </ul></span>
-        </div>
-      
-      </div>
 
-      <!-- Các chứng chỉ SQL -->
+<!-- Container để render -->
+<div id="certificate-grid-container" class="certificate_grid"></div>
 
-        <!-- một hàng trong gồm 2 chứng chỉ-->
-        <div class="certificate_grid">
-
-          <div class="certificate_container_flex cert--3  ">
-            <a href="https://www.coursera.org/account/accomplishments/specialization/MEF5HUY3UJFB" target=_blank><img class="cert-img" src="images\Google-Bussiness-intelligent-cert.png"></a>
-            <span>
-            <ul >  
-              <li class="name_of_cert">Google Business Intelligent</li>
-              <li class="job_content"> Online, non-credit specialization certificate - Coursera</li>
-              <li class="job_content text-info">entry-level roles in business intelligent</li>
-              <li class="job_content text-info">business decisions, data visualization and building dashboard</li>
-              <li class="job_content"><a href="#" target="_blank">
-                  3 courses - 2024-01--04 </a></li>
-                  <li class="job_content text-success"><a href="https://saturnzen.github.io/CapstoneUCDavisDSCoursera/">Project: </a>Abbyist2America-tweet-text-2006-2017 </li>
-            </ul></span>
-          </div>
-
-          <div class="certificate_container_flex cert--4 border_for_cert ">
-            <a href="https://www.coursera.org/account/accomplishments/specialization/GHFTC4CRKTKM" target=_blank><img class="cert-img" src="images\Cert_Learn-SQL-Basic-For-Data-Science-_UCDavis_Coursera.png"></a>
-            <span>
-            <ul >  
-              <li class="name_of_cert">SQL Basics for Data Science Specialization</li>
-              <li class="job_content"> Online, non-credit specialization certificate - Coursera</li>
-              <li class="job_content text-info">Capstone project for last week.</li>
-              <li class="job_content"><a href="#" target="_blank">
-                  4 courses - 2023-11--06 </a></li>
-                  <li class="job_content text-success"><a href="https://saturnzen.github.io/CapstoneUCDavisDSCoursera/">Project: </a>Abbyist2America-tweet-text-2006-2017 </li>
-            </ul></span>
-          </div>
-
-          </div>
-          <!--kết thúc một hàng
-          certificate_grid dùng để chứa 2 chứng chỉ
-          certificate_container_flex cert--1 dùng để chứa 
-          ảnh và nội dung một chứng chỉ
-          -->
-          
-          <div class="certificate_grid">
-
-            <div class="certificate_container_flex cert--5">
-              <a href="https://www.coursera.org/account/accomplishments/specialization/A9PFEUFE86YL" target=_blank><img class="cert-img" src="images\Cert_EverydayExcel.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Everyday Excel- University of Colorado Boulder</li>
-                <li class="job_content">Online, non-credit specialization certificate - Coursera</li>
-                <li class="job_content text-info">Name Manager, Format, Process and Clean as Table and Binary, PivotChart for Quick Access and Filter </li>
-                <li class="job_content text-success"><a href="#" target="_blank">
-                    3 courses - 2021-09--14 </a></li>
-              </ul></span>
-            </div>
-
-            <div class="certificate_container_flex cert--6 border_for_cert">
-              <a href="https://www.coursera.org/account/accomplishments/specialization/86HB2WJUREST" target=_blank><img class="cert-img" src="images\Cert_VBA.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Excel/VBA for Creative Problem Solving- University of Colorado Boulder</li>
-                <li class="job_content">Online, non-credit specialization certificate - Coursera</li>
-                <li class="job_content text-info">Computing (process, clean) data in cell,
-                   columns, rows and sheets with VBA  </li>
-                   <li class="job_content text-info">How data should be stored for easier accessing and manipulating  </li>
-                <li class="job_content text-success"><a href="#" target="_blank">
-                    3 courses - 2021-09--14 </a></li>
-              </ul></span>
-            </div>
-
-          </div><!--container cho grid certificate-->
-
-          <!--kết thúc một hàng-->
-          <div class="certificate_grid">
-
-            <div class="certificate_container_flex cert--7">
-              <a href="
-              https://www.coursera.org/account/accomplishments/specialization/JRH4GJPWRZ8S" target=_blank></href><img class="cert-img" src="images\Cert_ITAutomation.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Google IT Automation with Python - Google</li>
-                <li class="job_content">Online, non-credit professional certificate - Coursera</li>
-                <li class="job_content text-info">Compute with Linux, regex in python
-                </li>
-                <li class="job_content text-success"><a href="#" target="_blank">
-                    6 courses - 2021-07--11 </a></li>
-              </ul></span>
-            </div>
-
-            <div class="certificate_container_flex cert--8 border_for_cert">
-              <a  href="https://www.coursera.org/account/accomplishments/specialization/B7Y4LQN8XG8M" target=_blank><img class="cert-img" src="images\Cert_Python.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Python 3 Programming - University of Michigan</li>
-                <li class="job_content">Online, non-credit specialization certificate - Coursera</li>
-                <li class="job_content text-info">Call stack explanation-book
-                </li>
-                <li class="job_content text-info"><a href="https://coursera-assessments.s3.amazonaws.com/assessments/1628897652167/7975e4a7-6f49-4b3c-fd49-e049b8386be7/Michigan%20-%20Python%20-%205%20-%20Ass1.html">Pillow: applied different filter.</a>
-                </li>
-                <li class="job_content text-info">
-                  <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1628851073760/617399db-c830-43f6-840b-eda8f738ed92/Michigan%20-%20Python%20-%205%20-%20Ass3%20-%20LastFile.html">
-
-                    kraken, tesseract and opencv: filter paper by string and crawl face-thumbnail from.
-                  </a>
-                </li>
-                <li class="job_content text-success"><a href="" target="_blank">
-                    5 courses - 2021-08--15 </a></li>
-              </ul></span>
-            </div>
-
-          </div><!--container cho grid certificate-->
-
-          <div class="certificate_grid">
-
-            <div class="certificate_container_flex cert--9">
-              <a  href="https://www.coursera.org/account/accomplishments/specialization/294QC8PB9FUJ" target=_blank><img class="cert-img" src="images\GDA-cert.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Google Data Analytics</li>
-                <li class="job_content">Online, non-credit professional certificate - Coursera</li>
-                <li class="job_content text-info">Data-Driven 
-                  Decision Making __ Prolem Solving 
-                </li>
-                <li class="job_content text-info">Ask, Process, P
-                  repare, Process, Analyze, Share, Act</li>
-                <li class="job_content text-info">Spreadsheets, SQL, Tablueau, R</li>
-                <li class="job_content text-success"><a href="https://saturnzen.github.io/CapstoneUCDavisDSCoursera/" target="_blank">
-                    8 courses - 2023-09--11 </a></li>
-              </ul></span>
-            </div>
-
-            <div class="certificate_container_flex cert--10 border_for_cert">
-              <a  href="https://www.coursera.org/account/accomplishments/specialization/93RK5KDXE4C6" target=_blank><img class="cert-img" src="images\GADA-cert.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Google Advanced Data Analytics</li>
-                <li class="job_content">Online, non-credit professional certificate - Coursera</li>
-                <li class="job_content text-info">PACE for data analytics process with Python
-                </li>
-                <li class="job_content text-info">Advanced role in data analytics and entry-role in data science
-                </li>
-                <li class="job_content text-info">Exploring large datasets, applying data analysis techniques and building models to extract insights
-                </li>
-                <li class="job_content text-info">Machine Learning, predictive modeling and statistics</li>
-                <li class="job_content text-success"><a href="https://saturnzen.github.io/CapstoneUCDavisDSCoursera/" target="_blank">
-                    8 courses - 2024-06--08 </a></li>
-              </ul></span>
-            </div>
-
-          </div><!--container cho grid certificate-->
-
-          <div class="certificate_grid">
-
-            <div class="certificate_container_flex cert--11 ">
-              <a href="https://www.coursera.org/account/accomplishments/verify/SCYS3MQFQDJC" target=_blank></href><img class="cert-img" src="images\Cert-Google-SEO-Fundamentals.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Google SEO Fundamentals</li>
-                <li class="job_content">Online non-credit course authorized by University of California, Davis and offered through Coursera</li>
-                <li class="job_content text-info">Identify meta-tags and use these to make recommendations for On-page SEO.
-                </li>
-                <li class="job_content text-info">Building links to your site and understanding brand recognition through social media.</li>
-                <li class="job_content text-info">
-                  Technical SEO strategy </li>
-                <li class="job_content text-info">Optimal keywords that will help get your site recognized.</li>
-                <li class="job_content text-success"><a href="pdf\Peer-Grade.pdf">Project: </a>Optimal CDC's website </li>
-                <li class="job_content text-success">GPA: 96.06</li>
-              </ul></span>
-            </div>
-
-            <div class="certificate_container_flex cert--12 border_for_cert">
-              <a  href="https://www.coursera.org/account/accomplishments/professional-cert/H6IMXB14NPI8" target=_blank><img class="cert-img" src="images\power-bi.png"></a>
-              <span>
-              <ul >  
-                <li class="name_of_cert">Microsoft Power BI for data analyst</li>
-                <li class="job_content">Online, non-credit professional certificate - Coursera</li>
-                <li class="job_content text-info">Data-Driven 
-                  Decision Making __ Prolem Solving 
-                </li>
-                <li class="job_content text-info">DAX ETL Data-visualization storytelling</li>
-                <li class="job_content text-success"><a href="#" target="_blank">
-                    8 courses - 2025-06--11 </a></li>
-              </ul></span>
-            </div>
-
-          </div><!--container cho grid certificate-->
     </section>
 <!--kết thúc phần chứng chỉ giải thưởng-->
 
@@ -757,5 +571,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/certificates-render.js"></script>
   </body>
 </html>
