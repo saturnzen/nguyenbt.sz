@@ -1,0 +1,20 @@
+{
+    "name": "Saturnzen cv",
+    "short_name": "saturnzen cv",
+    "icons": [
+        {
+            "src": "images/avatar.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/avatar.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#28074a",
+    "theme_color": "#9AD4E0"
+}
