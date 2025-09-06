@@ -146,18 +146,42 @@ a:hover {
 }
 
 /*thanh level ngôn ngữ, kỹ năng*/
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 1.5rem;
+}
+
+.skill-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
 .grade_level {
-  display: inline-block;
-  width: 64px;
-  height: 4px;
-  background-color: #22b8cf;
-  border-radius: 12px;
-  margin-top: 16px;
-  margin-right: 4px;
+  flex: 1;
+  height: 8px;
+  background-color: #04aa6d; /* xanh active */
+  border-radius: 4px;
 }
+
 .grade_level_gray {
-  background-color: #e9ecef;
+  flex: 1;
+  height: 8px;
+  background-color: #ccc; /* xám nhạt */
+  border-radius: 4px;
 }
+
+.skill-desc {
+  display: block;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.25rem;
+}
+
 
 h1 {
   font-size: 36px;
@@ -402,6 +426,35 @@ li.job-title::marker {
 .operations__tab{
   background-color: #868e96;
 }
+.center-navbar {
+  text-align: center;
+}
+
+.operations__tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.tab-text{
+  display: inline-block;
+}
+
+.tab-text h1 {
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  margin: 0;
+}
+
+.tab-text h2 {
+  font-size: clamp(0.6rem, 0.8vw, 0.9rem);
+  margin: 0;
+  font-weight: normal;
+  color: #555; /* nhẹ hơn để phân cấp */
+  display: none;
+}
+
 
 
 /*dự án*/
