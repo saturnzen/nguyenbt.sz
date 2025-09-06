@@ -49,11 +49,11 @@ a:hover {
 
 /*Tạo cột cho Mục tiêu nghề nghiệp và thông tin cá nhân*/
 #about {
-  /* display: flex; */
-  /* display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-direction: column; 
   margin: 0px 0px;
-  grid-template-columns: 1fr 1fr; */
+  justify-content: center;
+  align-items: center;
 }
 
 /*thiết kế banner*/
@@ -403,6 +403,7 @@ li.job-title::marker {
   background-color: #868e96;
 }
 
+
 /*dự án*/
 /*phần chứa của toàn bộ dự án*/
 .project-container {
@@ -447,16 +448,13 @@ li.job-title::marker {
 /* bỏ padding của ul, căn chỉnh lại thông tin cá nhân 
 thẳng hàng với các mục*/
 .section-title {
-margin-top: 100px;
   margin-left: 32px;
   padding-bottom: 48px;
   padding-top: 64px;
 }
 
 #target {
-  grid-column: auto;
-  margin-left: 5rem;
-  margin-right: 5rem
+  justify-self: center;
 }
 
 ul {
@@ -497,73 +495,4 @@ td {
     display: none;
   }
 }
-
-
-/* SLIDER Bankist Javascript */
-.slider {
-  position: relative;
-  width: 100%;
-  max-width: 900px;      /* giới hạn chiều rộng */
-  margin: auto;
-  overflow: hidden;      /* ẩn phần thừa */
-  border-radius: 12px;   /* bo góc nhẹ */
-}
-.slider-track {
-  display: flex;               /* xếp slide ngang hàng */
-  width: 200%;                 /* 2 slide = 200% */
-  animation: slide 10s infinite; /* auto chạy */
-}
-
-.slide {
-  flex: 1 0 100%;       /* mỗi slide chiếm 100% width */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 40px;
-  background: #fff;
-}
-
-@keyframes slide {
-  0%   { transform: translateX(0); }
-  40%  { transform: translateX(0); }
-  50%  { transform: translateX(-100%); }
-  90%  { transform: translateX(-100%); }
-  100% { transform: translateX(0); }
-}
-
-
-.dots {
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-.dots__dot {
-  border: none;
-  background-color: #b9b9b9;
-  opacity: 0.7;
-  height: 1rem;
-  width: 1rem;
-  border-radius: 50%;
-  margin-right: 1.75rem;
-  cursor: pointer;
-  transition: all 0.5s;
-
-  /* Only necessary when overlying images */
-  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
-}
-
-.dots__dot:last-child {
-  margin: 0;
-}
-
-.dots__dot--active {
-  /* background-color: #fff; */
-  background-color: #888;
-  opacity: 1;
-}
-
 
