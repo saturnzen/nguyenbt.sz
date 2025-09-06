@@ -116,7 +116,7 @@
   #nav-bar {
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     gap: 0px;
   }
 
@@ -148,3 +148,10 @@
 
   .slider{height: 60rem}
 }
+
+.tab-text{
+  display: flex;
+  flex-direction: row;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;}

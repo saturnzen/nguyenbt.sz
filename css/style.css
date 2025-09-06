@@ -440,6 +440,7 @@ li.job-title::marker {
 
 .tab-text{
   display: inline-block;
+  gap: 18px
 }
 
 .tab-text h1 {
@@ -452,7 +453,7 @@ li.job-title::marker {
   margin: 0;
   font-weight: normal;
   color: #555; /* nhẹ hơn để phân cấp */
-  display: none;
+  display: ;
 }
 
 
