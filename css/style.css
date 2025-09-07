@@ -126,6 +126,7 @@ a:hover {
 
 .certificate_container_flex {
   display: flex;
+  margin: 20px;
 }
 
 /*kích cỡ hình ảnh*/
