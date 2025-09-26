@@ -1,0 +1,110 @@
+// projects-data.js
+export const projects = [
+  {
+    img: "images/project6-data-abbyst.png",
+    alt: "Fair and Unfair",
+    title: "Phân tích dữ liệu bầu cử Mỹ",
+    link: "https://saturnzen.github.io/CapstoneUCDavisDSCoursera/",
+    year: "2023",
+    org: "Coursera",
+    role: "Data Analyst",
+    desc: "Dự án về phân tích tần suất xuất hiện của một từ nào đó theo thời gian và mối tương quan.",
+    tasks: ["Làm sạch dữ liệu", "Tìm insight", "Trực quan hóa"],
+    tech: ["SQL", "Python (pandas, numpy)", "R Programming"],
+    extra: [
+      '<a href="https://saturnzen.github.io/CapstoneUCDavisDSCoursera/">Project: Abbyist2America-tweet-text-2006-2017</a>',
+    ],
+  },
+  {
+  img: "images/project-candidate-eval.png",
+  alt: "Candidate Evaluation",
+  title: "Candidate Evaluation Tool",
+  link: "https://saturnzen.github.io/cvAnalysis/",
+  year: "2025",
+  org: "Personal Project",
+  role: "Developer",
+  desc: "Ứng dụng web nhỏ để đánh giá mức độ tương thích của ứng viên dựa trên các tiêu chí định lượng như sự đơn giản, thuận tiện, rủi ro, môi trường và mức lương.",
+  tasks: [
+    "Thiết kế giao diện HTML/CSS",
+    "Xử lý sự kiện nhập liệu và định dạng số bằng JavaScript",
+    "Tính toán Beta và mức độ tương thích theo công thức",
+    "Tối ưu hiển thị trên iPhone (responsive design)",
+    "Tính toán doanh số hòa vốn và số lượng hòa vốn dựa trên chi phí cố định và chi phí biến đổi"
+  ],
+  tech: ["HTML", "CSS", "JavaScript"],
+  extra: [
+    '<a href="https://saturnzen.github.io/cvAnalysis/">Demo Project</a>'
+  ],
+},
+{
+  img: "images/project-monty-hall.png",
+  alt: "Monty Hall Simulation",
+  title: "Monty Hall Game Simulation",
+  link: "https://saturnzen.github.io/MontyHall/",
+  year: "2025",
+  org: "Personal Project",
+  role: "Developer",
+  desc: "Mô phỏng trò chơi Monty Hall để kiểm chứng chiến lược đổi cửa có xác suất thắng cao hơn. Giao diện trực quan với cửa chọn và hiệu ứng CSS.",
+  tasks: [
+    "Xây dựng giao diện trò chơi với HTML/CSS",
+    "Tạo logic random cửa có thưởng bằng JavaScript",
+    "Xử lý hành vi người chơi (chọn, đổi cửa, giữ nguyên)",
+    "Thêm hiệu ứng trực quan khi mở cửa"
+  ],
+  tech: ["HTML", "CSS", "JavaScript"],
+  extra: [
+    '<a href="https://saturnzen.github.io/MontyHall/">Play Monty Hall Demo</a>'
+  ],
+},
+
+  {
+    img: "images/project_1me.png",
+    alt: "project1",
+    title: "CV CÁ NHÂN",
+    link: "./digital-cv.html",
+    year: "2023",
+    org: "Funix",
+    role: "Developer",
+    desc: "Trang Web CV cá nhân online: gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp",
+    tasks: ["Phát triển Code", "Review code", "Tối ưu code", "Xử lý lỗi"],
+    tech: ["HTML", "CSS"],
+  },
+  {
+    img: "images/project_2.png",
+    alt: "project2",
+    title: "TRANG WEB QUẢN LÝ THÚ CƯNG",
+    link: "./Pet-App.html",
+    year: "2023",
+    org: "Funix",
+    role: "Developer",
+    desc: "Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm chủng... Bao gồm thêm / sửa / xoá.",
+    tasks: ["Phát triển Code", "Review code", "Tối ưu code", "Xử lý lỗi"],
+    tech: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    img: "images/project_3.png",
+    alt: "project3",
+    title: "TRANG WEB XEM TIN TỨC",
+    link: "https://saturnzen.github.io/ass3FunixJavascript/pages/todo.html",
+    year: "2023",
+    org: "Funix",
+    role: "Developer",
+    desc: "Trang web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm theo từ khóa.",
+    tasks: ["Phát triển Code", "Review code", "Tối ưu code", "Xử lý lỗi"],
+    tech: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    img: "images/ColonData.png",
+    alt: "Tuần trước",
+    title: "Tuần trước, tôi đã từ bỏ ý tưởng từng tâm đắc này",
+    link: "https://saturnzen.github.io/LambdaInformationColonData",
+    year: "2017",
+    org: "Facebook",
+    role: "Developer",
+    desc: "Ban đầu fanpage chia sẻ những cuốn sách tôi đọc, sau đó hiệu đính lại các ý tưởng cũ.",
+    tasks: ["Sáng tạo nội dung"],
+    tech: ["Phân tích dữ liệu"],
+    extra: ["Những đứa trẻ đấu tranh để học con chữ để biết đọc, chúng sẽ đọc gì?"],
+  },
+  
+];
