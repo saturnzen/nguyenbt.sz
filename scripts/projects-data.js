@@ -4,7 +4,7 @@ export const projects = [
     img: "images/project6-data-abbyst.png",
     alt: "Fair and Unfair",
     title: "Phân tích dữ liệu bầu cử Mỹ",
-    link: "https://saturnzen.github.io/CapstoneUCDavisDSCoursera/",
+    link: "https://saturnzen.github.io/fair-unfair-Abbyist2America/",
     year: "2023",
     org: "Coursera",
     role: "Data Analyst",
@@ -12,7 +12,7 @@ export const projects = [
     tasks: ["Làm sạch dữ liệu", "Tìm insight", "Trực quan hóa"],
     tech: ["SQL", "Python (pandas, numpy)", "R Programming"],
     extra: [
-      '<a href="https://saturnzen.github.io/CapstoneUCDavisDSCoursera/">Project: Abbyist2America-tweet-text-2006-2017</a>',
+      '<a href="https://saturnzen.github.io/fair-unfair-Abbyist2America/">Project: Abbyist2America-tweet-text-2006-2017</a>',
     ],
   },
   {
