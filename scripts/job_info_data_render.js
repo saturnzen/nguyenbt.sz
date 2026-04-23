@@ -12,19 +12,30 @@ export function renderJobInfo() {
         <span><i class="ic-toolbox icon_2"></i></span>
       </div>
       <ul class="job-info-content">
-        ${jobInfoData.map(job => `
-          <li class="job-item">
-            <div class="job-title">${job.title}</div>
-            <div class="job-time">
-              <span class="timeline">${job.start} - </span>
-              <span class="time_btn">${job.end}</span>
-            </div>
-            <ul>
-              ${job.contents.map(c => `<li class="job_content">${c}</li>`).join("")}
-            </ul>
-          </li>
-        `).join("")}
-      </ul>
+      ${jobInfoData.map(job => `
+        <li class="job-item">
+          <div class="job-title">${job.title}</div>
+          <div class="job-time">
+            <span class="timeline">${job.start} - </span>
+            <span class="time_btn">${job.end}</span>
+          </div>
+          <ul>
+            ${job.contents.map(c => `
+              <li class="job_content">
+                ${c.text}
+                ${
+                  c.link
+                    ? `<a href="${c.link.url}" target="_blank" style="margin-left:8px;">
+                        ${c.link.label}
+                      </a>`
+                    : ""
+                }
+              </li>
+            `).join("")}
+          </ul>
+        </li>
+      `).join("")}
+    </ul>
     </div>
   `;
 }

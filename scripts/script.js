@@ -90,3 +90,9 @@ const imgObserver = new IntersectionObserver(loadImg, {
   threshold: 0,
   rootMargin: '0px',
 })
+
+
+// ẩn avatar khi click để hiện thị hết nội dung
+document.getElementById("navAvatar").addEventListener("click", function () {
+    this.style.display = "none";
+  });

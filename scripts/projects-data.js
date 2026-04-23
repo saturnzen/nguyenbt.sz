@@ -2,7 +2,7 @@
 export const projects = [
   {
     img: "images/project6-data-abbyst.png",
-    alt: "Fair and Unfair",
+    alt: "Bias Reduction Ltd.",
     title: "Phân tích dữ liệu bầu cử Mỹ",
     link: "https://saturnzen.github.io/fair-unfair-Abbyist2America/",
     year: "2023",
@@ -14,6 +14,34 @@ export const projects = [
     extra: [
       '<a href="https://saturnzen.github.io/fair-unfair-Abbyist2America/">Project: Abbyist2America-tweet-text-2006-2017</a>',
     ],
+  },{
+    img: "images/Meningococal disease.png",
+    alt: "phòng bệnh trong hô hấp, tay chân miệng, viêm não cầu",
+    title: "phòng bệnh trong hô hấp, tay chân miệng, viêm não cầu",
+    link: "https://saturnzen.github.io/fair-unfair-Abbyist2America/",
+    year: "2025",
+    org: "Bias Reduction Ltd.",
+    role: "Data Analyst",
+    desc: "chỉ số lây nhiễm, tỉ lệ gây chết, thời điểm điểm và trong các thời điểm có sử dụng các biện pháp phòng bệnh và vaccine.",
+    tasks: ["đề xuất khung", "Tạo dữ liệu từ dữ liệu mô phỏng", "Trực quan hóa"],
+    tech: ["Power BI"],
+    extra: [
+      '<a href="https://saturnzen.github.io/fair-unfair-Abbyist2America/">Project: Abbyist2America-tweet-text-2006-2017</a>',
+    ],
+  },{
+    img: "images/Ba Hạ.png",
+    alt: "Thủy điện Ba Hạ",
+    title: "Phân tích dự đoán nhu cầu tích nước xả nước trong biến đổi khí hậu",
+    link: "https://saturnzen.github.io/fair-unfair-Abbyist2America/",
+    year: "2025",
+    org: "Bias Reduction Ltd.",
+    role: "Data Analyst",
+    desc: "Phân tích dự đoán nhu cầu tích nước xả nước trong biến đổi khí hậu.",
+    tasks: ["đề xuất khung", "xây dựng pipeline", "Trực quan hóa"],
+    tech: ["Selenium", "Python (pandas, numpy)", "Power BI"],
+    extra: [
+      '<a href="https://saturnzen.github.io/fair-unfair-Abbyist2America/">Project: Abbyist2America-tweet-text-2006-2017</a>',
+    ],
   },
   {
   img: "images/project-candidate-eval.png",
@@ -21,7 +49,7 @@ export const projects = [
   title: "Candidate Evaluation Tool",
   link: "https://saturnzen.github.io/cvAnalysis/",
   year: "2025",
-  org: "Personal Project",
+  org: "Bias Reduction Ltd.",
   role: "Developer",
   desc: "Ứng dụng web nhỏ để đánh giá mức độ tương thích của ứng viên dựa trên các tiêu chí định lượng như sự đơn giản, thuận tiện, rủi ro, môi trường và mức lương.",
   tasks: [
@@ -42,7 +70,7 @@ export const projects = [
   title: "Monty Hall Game Simulation",
   link: "https://saturnzen.github.io/MontyHall/",
   year: "2025",
-  org: "Personal Project",
+  org: "Bias Reduction Ltd.",
   role: "Developer",
   desc: "Mô phỏng trò chơi Monty Hall để kiểm chứng chiến lược đổi cửa có xác suất thắng cao hơn. Giao diện trực quan với cửa chọn và hiệu ứng CSS.",
   tasks: [
@@ -99,7 +127,7 @@ export const projects = [
     title: "Tuần trước, tôi đã từ bỏ ý tưởng từng tâm đắc này",
     link: "https://saturnzen.github.io/LambdaInformationColonData",
     year: "2017",
-    org: "Facebook",
+    org: "Bias Reduction Ltd.",
     role: "Developer",
     desc: "Ban đầu fanpage chia sẻ những cuốn sách tôi đọc, sau đó hiệu đính lại các ý tưởng cũ.",
     tasks: ["Sáng tạo nội dung"],
