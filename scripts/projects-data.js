@@ -18,7 +18,7 @@ export const projects = [
     img: "images/Meningococal disease.png",
     alt: "phòng bệnh trong hô hấp, tay chân miệng, viêm não cầu",
     title: "phòng bệnh trong hô hấp, tay chân miệng, viêm não cầu",
-    link: "https://saturnzen.github.io/fair-unfair-Abbyist2America/",
+    link: "https://github.com/saturnzen/data-analyst-part-ways/tree/main/meningococcal%20disease/",
     year: "2025",
     org: "Bias Reduction Ltd.",
     role: "Data Analyst",
@@ -26,13 +26,13 @@ export const projects = [
     tasks: ["đề xuất khung", "Tạo dữ liệu từ dữ liệu mô phỏng", "Trực quan hóa"],
     tech: ["Power BI"],
     extra: [
-      '<a href="https://saturnzen.github.io/fair-unfair-Abbyist2America/">Project: Abbyist2America-tweet-text-2006-2017</a>',
+      '<a href="https://github.com/saturnzen/data-analyst-part-ways/tree/main/meningococcal%20disease">Project: Meningococcal Disease Analysis</a>',
     ],
   },{
     img: "images/Ba Hạ.png",
     alt: "Thủy điện Ba Hạ",
     title: "Phân tích dự đoán nhu cầu tích nước xả nước trong biến đổi khí hậu",
-    link: "https://saturnzen.github.io/fair-unfair-Abbyist2America/",
+    link: "https://github.com/saturnzen/data-analyst-part-ways/tree/main/Gi%E1%BA%A3%20l%E1%BA%ADp%20quy%20tr%C3%ACnh%20tho%C3%A1t%20n%C6%B0%E1%BB%9Bc",
     year: "2025",
     org: "Bias Reduction Ltd.",
     role: "Data Analyst",
@@ -40,7 +40,7 @@ export const projects = [
     tasks: ["đề xuất khung", "xây dựng pipeline", "Trực quan hóa"],
     tech: ["Selenium", "Python (pandas, numpy)", "Power BI"],
     extra: [
-      '<a href="https://saturnzen.github.io/fair-unfair-Abbyist2America/">Project: Abbyist2America-tweet-text-2006-2017</a>',
+      '<a href="https://github.com/saturnzen/data-analyst-part-ways/tree/main/Gi%E1%BA%A3%20l%E1%BA%ADp%20quy%20tr%C3%ACnh%20tho%C3%A1t%20n%C6%B0%E1%BB%9Bc">Project: Ba Hạ Water Management</a>',
     ],
   },
   {
