@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>QC Analyst</title>
+
+<style>
+  body { font-family: sans-serif; text-align: center; padding: 20px; }
+  .opened { background-color: #eee; cursor: default; }
+  .buttons { margin-top: 20px; }
+  button { margin: 5px; padding: 10px 20px; font-size: 16px; }
+  table { margin: 20px auto; border-collapse: collapse; }
+  th, td { border: 1px solid #333; padding: 5px 10px; }
+</style>
+</head>
+<body>
+
+<h1>QC Analyst</h1>
+<button id="langBtn">EN</button>
+<div class="filters">
+  <button onclick="filterByTag('all')">All</button>
+  <button onclick="filterByTag('compliance')">Compliance</button>
+  <button onclick="filterByTag('market')">Market</button>
+  <button onclick="filterByTag('formulation')">Formulation</button>
+  <button onclick="filterByTag('qc')">QC</button>
+  <button onclick="filterByTag('operation')">Operation</button>
+</div>
+<div id="contentList"></div>
+
+</body>
+<script src="./scripts/lang.js"></script>
+
+</html>
