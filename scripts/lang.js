@@ -41,7 +41,7 @@ const contents = [
   },
   {
     text: {
-      vn: "Hỗ trợ xây dựng công thức và theo dõi đánh giá độ hòa tan cho các thuốc mới (Albendazol, Diosmin, Mebendazol, Ibuprofen bao đường, Clorphenesin carbamat).",
+      vn: "Hỗ trợ xây dựng công thức và theo dõi đánh giá độ hòa tan cho các thuốc mới ",
       en: "Supported formulation development and dissolution evaluation for multiple new drugs (Albendazole, Diosmin, Mebendazole, coated Ibuprofen, Chlorphenesin carbamate)."
     },
     tags: ["formulation", "development"],
