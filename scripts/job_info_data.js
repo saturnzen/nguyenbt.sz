@@ -1,4 +1,20 @@
 export const jobInfoData = [
+// nhân viên kinh doanh - CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ HÓA DƯỢC VIỆT
+  {
+    title: "Nhân viên kinh doanh - CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ HÓA DƯỢC VIỆT",
+    start: "05/2026",
+    end: "present",
+    contents: [
+      {
+        text: "Nguyên liệu tá dược, API, phụ gia thực phẩm",
+        link: {
+          url: "https://hoaduocviet.vn",
+          label: "Vpharchem"
+        }
+      }
+    ]
+  },
+
   // data analyst - bias reduction one-member company limited
   {
     title: "Data Analyst - Bias Reduction One-member Company Limited",
